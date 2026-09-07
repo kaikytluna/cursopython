@@ -1,0 +1,7 @@
+nome=input("Insira seu nome:").capitalize()
+sobnome=input("Insira seu sobrenome:").capitalize()
+nome_completo=(nome+sobnome)
+# print(nome)
+print("O tamanho do seu nome é",len(nome))
+print("O tamanho do seu sobrenome é",len(sobnome))
+print(f"O seu nome completo é {nome_completo}")
