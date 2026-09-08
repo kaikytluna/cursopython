@@ -24,11 +24,11 @@ numeros=[]
 while len(numeros)<10:
     numero=(input("Insira um número: "))
     
-    if numero.isdigit():
+    if numero.lstrip("-").isdigit():
         print(f"total {len(numeros)+1}")
         print()
         numeros.append(int(numero))
-        
+
     else:
         print("Você não inseriu um número")
         continue
